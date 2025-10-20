@@ -5,6 +5,10 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-image: url("/Bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .container {
@@ -59,3 +63,4 @@ button:hover {
   margin-top: 10px;
   text-align: center;
 }
+
