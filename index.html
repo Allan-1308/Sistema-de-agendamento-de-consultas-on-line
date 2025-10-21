@@ -4,22 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login - Sistema de Agendamento</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="login.css">
 </head>
 <body>
-  <div class="container">
-    <h2>Login Médico</h2> 
-    <form id="formLogin">
-      <label for="usuario">Usuário:</label>
-      <input type="text" id="usuario" placeholder="Digite seu usuário" required>
+  <main>
 
-      <label for="senha">Senha:</label>
-      <input type="password" id="senha" placeholder="Digite sua senha" required>
-
-      <button type="submit">Entrar</button>
-      <p id="msgErro" class="erro"></p>
-    </form>
-  </div>
+    <div class="container">
+      <h2>Login Médico</h2> 
+      <form id="formLogin">
+        <label for="usuario">Usuário:</label>
+        <input type="text" id="usuario" placeholder="Digite seu usuário" required>
+  
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" placeholder="Digite sua senha" required>
+  
+        <button type="submit">Entrar</button>
+        <p id="msgErro" class="erro"></p>
+      </form>
+    </div>
+  </main>
 
   <script>
     document.getElementById('formLogin').addEventListener('submit', function(e) {

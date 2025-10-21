@@ -1,22 +1,30 @@
-body {
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+main
+ {
+  background-image: url("assets/Bg\ 2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   font-family: Arial, sans-serif;
-  background-color: #f4f6f8;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background-image: url("Bg.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  height: 100%;
+  width: 100vw;
 }
 
 .container {
-  background: white;
+  background: rgba(255,255,255,0.55);
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
-  width: 400px;
+  width: 500px;
+  height: 100%;
 }
 
 h2 {
@@ -63,5 +71,3 @@ button:hover {
   margin-top: 10px;
   text-align: center;
 }
-
-
